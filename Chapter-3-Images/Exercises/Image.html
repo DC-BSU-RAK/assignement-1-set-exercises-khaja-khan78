@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nature Landscapes</title>
+  <style>
+    /* Reset default spacing */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #2c3e50;
+    }
+
+    .image-container {
+      margin-bottom: 50px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      filter: grayscale(100%);
+      transition: filter 0.4s ease, transform 0.4s ease;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    img:hover {
+      filter: grayscale(0%);
+      transform: scale(1.02);
+    }
+
+    .license {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .license a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    .license a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nature Landscapes</h1>
+
+  <div class="image-container">
+    <img src="sarlote-laura-jevdokimova-Y5p_0LW1xQg-unsplash.jpg" alt="Snow-covered mountain range during sunrise"
+         title="Sunrise over a mountain range" width="800" height="533">
+    <p class="license">Photo by <a href="https://unsplash.com/photos/sunlight-illuminates-a-path-through-a-forest-Y5p_0LW1xQg" target="_blank">Sarlote Laura Jevdokimova</a> on Unsplash.</p>
+  </div>
+
+  <div class="image-container">
+    <img src="marek-piwnicki-3f22ob_rtnA-unsplash.jpg" alt="Dense green forest with light rays"
+         title="Light filtering through the forest" width="800" height="533">
+    <p class="license">Photo by <a href="https://unsplash.com/photos/a-view-of-a-mountain-range-at-sunset-3f22ob_rtnA" target="_blank">Marek Piwnicki</a> on Unsplash.</p>
+  </div>
+
+  <div class="image-container">
+    <img src="ellie-ellien-qm59jfOpJyA-unsplash.jpg" alt="Calm lake with mountain reflection"
+         title="Mountain reflection in a calm lake" width="800" height="533">
+    <p class="license">Photo by <a href="https://unsplash.com/photos/sunset-over-the-water-with-palm-trees-qm59jfOpJyA" target="_blank">Ellie Ellien</a> on Unsplash.</p>
+  </div>
+</body>
+</html>
