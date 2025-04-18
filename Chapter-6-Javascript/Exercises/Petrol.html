@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Petrol Total</title>
+</head>
+<body>
+
+  <h1>Petrol Cost Checker</h1>
+
+  <p>Price per Liter (£):</p>
+  <input id="price" type="number" value="1.72"><br><br>
+
+  <p>How many Liters:</p>
+  <input id="amount" type="number" value="0"><br><br>
+
+  <button onclick="showTotal()">Show Total</button>
+
+  <h3 id="result">Total: £0.00</h3>
+
+  <script>
+    function showTotal() {
+      let price = parseFloat(document.getElementById("price").value);
+      let amount = parseFloat(document.getElementById("amount").value);
+      let total = price * amount;
+      document.getElementById("result").innerText = "Total: £" + total.toFixed(2);
+    }
+  </script>
+
+</body>
+</html>
